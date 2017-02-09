@@ -1,0 +1,104 @@
+#legal #header {
+	height: 150px;
+	background: #fff;
+	background-size: cover;
+	box-shadow: none;
+}
+
+#legal h3 {
+	font-family: "Work Sans";
+	line-height: 24px;
+	color: #31363b;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#legal > div > div > div h2 {
+	font-family: "Work Sans";
+	color: #31363b;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 38px;
+	padding-bottom: 20px;
+}
+
+#legal > div > div > div > div:first-child {
+	margin: 0 0 30px 0;
+}
+
+#splitscreen p, #legal ul li {
+	font-family: "Work Sans";
+	color: #4a4a4a;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+#legal > div:nth-child(2) {
+	padding: 0;
+}
+
+#legal .jobbox {
+	background: #fff;
+	padding: 40px 35px 45px 35px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+#legal .jobbox h3 {
+	margin: 0 0 30px 0;
+	color: #4a4a4a;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#legal .jobbox p {
+	font-size: 16px;
+	font-weight: 200;
+	color: #4a4a4a;
+	font-family: "Work Sans";
+	line-height: 32px;
+	margin: 0 0 25px 0;
+}
+
+#legal .jobbox p:last-child {
+	text-align: center;
+	margin: 0;
+}
+
+#splitscreen {
+	position: relative;
+}
+
+#splitscreen > div.leftscreen {
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #eaeaea;
+}
+
+#splitscreen > div.rightscreen {
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+#legal .col1 {
+	background-color: transparent;
+}
+
+#legal .col2 {
+	background-color: transparent;
+}
+
+#legal > div.row {
+	height: 100%;
+}

@@ -1,0 +1,150 @@
+#about-us #header {
+	background: #fff url(../img/about.png) no-repeat;
+	background-size: cover;
+	box-shadow: none;
+}
+
+#about {
+	padding: 100px 0;
+}
+
+#about-us #intro {
+	background-color: #fff;
+	padding: 100px 0;
+}
+
+#about-us .project-left {
+	background-color: whitesmoke;
+	padding-bottom: 50px;
+	margin-bottom: 0;
+}
+
+#about-us .project-right {
+	position: relative !important;
+	background-color: #fff;
+}
+
+#about-us .project-right img {
+	right: 10%;
+	bottom: 20%;
+	width: 170px;
+	border-radius: 50vw;
+	margin-top: 110px;
+}
+
+#about-us .project-left img {
+	left: 10%;
+	bottom: 20%;
+	width: 170px;
+	border-radius: 50vw;
+	margin: 70px auto 0 auto;
+}
+
+.project-left h2, .project-right h2 {
+	padding-top: 20px;
+}
+
+#about-us #teaser {
+	background-image: none;
+}
+
+#about-us .teaser-container {
+	margin: 0 auto;
+	max-width: 379px;
+	text-align: center;
+}
+
+#teaser > div > div > div:nth-child(1) > div {
+	margin-bottom: 70px;
+}
+
+#about-us > div.project-right > div > div > div:nth-child(1) > div,  #about-us > div.project-left > div > div > div:nth-child(2) > div{
+	margin: 0;
+	float: none;
+}
+
+#about-us #teaser h2 {
+	text-align: center;
+	color: white;
+	font-family: "Work Sans";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+	padding-bottom: 0;
+}
+
+#about-us #teaser h3 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 29px;
+	padding-bottom: 30px;
+}
+
+#about-us #teaser p {
+	text-align: center;
+}
+
+#about-us #teaser p .btn-primary {
+	padding-left: 50px;
+	padding-right: 50px  
+}
+
+
+
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+	#about-us .project-left img {
+		left: 10%;
+		bottom: 20%;
+		width: 300px;
+		border-radius: 50vw;
+	}
+
+	#about-us .project-right img {
+		right: 10%;
+		bottom: 20%;
+		width: 300px;
+		border-radius: 50vw;
+	}
+	.project-left h2, .project-right h2 {
+		padding-top: 70px;
+	}
+
+	#about-us .project-left {
+		background-color: whitesmoke;
+		padding-bottom: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+	#about-us .project-left img {
+		left: 20%;
+		margin: 90px auto 0 auto;
+	}
+
+	#about-us .project-right img {
+		margin-right: 20%;
+	}
+
+
+	#about-us .project-left {
+		height: 570px;
+		background-color: whitesmoke;
+	}
+
+	#about-us .project-right {
+		position: relative !important;
+		height: 513px;
+		background-color: #fff;
+	}
+}

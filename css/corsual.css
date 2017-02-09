@@ -1,0 +1,62 @@
+#corsual #header {
+	background: #fff url(../img/corsual-bg.png) no-repeat;
+	background-size: cover;
+	box-shadow: none;
+}
+
+
+#corsual .hero1 {
+	position: relative;
+	min-height: 110vmax;
+}
+
+#corsual .hero1 p {
+	margin-bottom: 100px;
+}
+
+#corsual > div:nth-child(3) > div.container > img {
+	bottom: 25px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+#corsual > div:nth-child(4) {
+	background-color: #fff;
+}
+
+#corsual #project-intro {
+	background-color: #fff;
+} 
+
+
+
+@media (min-width: 480px) {
+	#corsual .hero1  {
+		min-height: 105vmax;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	#corsual .hero1  {
+		min-height: 90vmax;
+	}
+}
+
+@media (min-width: 992px) {
+	#corsual .hero1  {
+		min-height: 850px;
+	}
+
+	#corsual > div:nth-child(4) {
+		padding: 100px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}

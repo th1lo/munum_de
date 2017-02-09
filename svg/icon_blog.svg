@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_blog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-415.000000, -1974.000000)" stroke="#FEB901" stroke-width="2">
+            <g id="icon_blog" sketch:type="MSLayerGroup" transform="translate(416.000000, 1975.000000)">
+                <rect id="Rectangle-path" sketch:type="MSShapeGroup" x="0" y="0" width="36.9997559" height="50"></rect>
+                <path d="M6,50 L6,0.806451613" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M10.483871,11 L33.0645161,11" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M10.483871,16 L33.0645161,16" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M50,1.99975585 L50,41.9354839 L46.7741935,48.3870968 L44.0622558,41.9354839 L44.0622558,1.99975585 L50,1.99975585 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M43.5622559,4.93523958 L40.0622559,4.93523958 L40.0622559,12.9997557" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

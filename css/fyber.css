@@ -1,0 +1,123 @@
+#fyber #header {
+	background: #fff url(../img/fyber-bg.png) no-repeat;
+	background-size: cover;
+	box-shadow: none;
+}
+
+
+#header > div > h1 > svg {
+	width: 260px;
+}
+
+#fyber > div:nth-child(3) > div.container > img {
+	bottom: 25px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 5;
+}
+
+#fyber .hero1 {
+	position: relative;
+	min-height: 130vmax;
+}
+
+#fyber #scribbles {
+	background-color: #f5f5f5;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 80px; 
+}
+
+#mobile-lp {
+	margin: 70px auto 70px auto;
+}
+
+#mobile-lp h2 {
+	text-align: center;
+	color: #31363b;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 30px 0 30px 0;
+	padding: 0 15px;
+}
+
+#mobile-lp p {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 463px;
+	color: #31363b;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+#mobile-lp img {
+	float: right;
+}
+
+
+
+@media (min-width: 480px) {
+	#fyber .hero1  {
+		min-height: 120vmax;
+	}
+
+	#header > div > h1 > svg {
+		width: 312px;
+	}
+	
+}
+
+@media (min-width: 768px) {
+	#fyber .hero1  {
+		min-height: 90vmax;
+	}
+
+	#mobile-lp {
+		margin: 70px auto 70px auto;
+	}
+
+	#mobile-lp h2 {
+		padding: 0; 
+	}
+
+	#mobile-lp h2, #mobile-lp p {
+		width: auto;
+		text-align: left;
+		margin: 30px 0 0 0;
+	}
+
+	#mobile-lp img {
+		margin: 110px 25px 0 0;
+		width: 280px;
+	}
+}
+
+@media (min-width: 992px) {
+	#fyber .hero1  {
+		min-height: 850px;
+	}
+
+	#fyber > div:nth-child(4) {
+		padding: 30px 15px;
+	}
+
+	#mobile-lp img {
+		margin: 30px 0 0 0;
+	}
+
+	#mobile-lp h2 {
+		margin: 30px 0 30px 0px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+}

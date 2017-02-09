@@ -1,0 +1,130 @@
+#jobs #header {
+	background: #fff url(../img/jobs.png) no-repeat;
+	background-size: cover;
+	box-shadow: none;
+}
+
+#header .dark-nav-items h1 {
+	margin: 100px auto 40px auto;
+	font-size: 32px;
+}
+
+#jobs > div > div > div > div:first-child {
+	margin: 0 0 30px 0;
+}
+
+#splitscreen > div.container > div > div.col-sm-6.col1 > div > div:nth-child(1) > p, #jobs ul li {
+	font-family: "Work Sans";
+	color: #4a4a4a;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 32px;
+}
+
+#splitscreen > div.container > div > div.col-sm-6 > div > div > h2, #splitscreen > div.container > div > div.col-sm-6.col2 > div > h2 {
+	font-family: "Work Sans";
+	color: #31363b;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 38px;
+}
+
+#jobs .jobbox {
+	background: #fff;
+	padding: 40px 35px 45px 35px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+#jobs .jobbox h3 {
+	margin: 0 0 30px 0;
+	color: #4a4a4a;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#jobs .jobbox p {
+	font-size: 16px;
+	font-weight: 200;
+	color: #4a4a4a;
+	font-family: "Work Sans";
+	line-height: 32px;
+	margin: 0 0 25px 0;
+}
+
+#jobs .jobbox p:last-child {
+	text-align: center;
+	margin: 0;
+}
+
+#splitscreen {
+	position: relative;
+}
+
+#splitscreen > div.leftscreen {
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #eaeaea;
+}
+
+#splitscreen > div.rightscreen {
+	position: absolute;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+#jobs .col1 {
+	background-color: transparent;
+	padding: 50px 25px;
+}
+
+#jobs .col2 {
+	background-color: whitesmoke;
+	padding: 50px 25px;
+}
+
+#splitscreen > div.container > div > div.col-sm-6.col1 > div > div:nth-child(1) {
+	text-align: center;
+}
+
+#splitscreen > div.container > div > div.col-sm-6.col2 > div > div > p:nth-child(3) > a {
+	padding: 15px 10px;
+}
+
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+	
+	#splitscreen > div.container > div > div.col-sm-6.col1 > div > div:nth-child(1) {
+		text-align: left;
+	}
+
+	#header .dark-nav-items h1 {
+		margin: 100px auto 40px auto;
+		font-size: 5vw;
+	}
+}
+
+@media (min-width: 992px) {
+	#header .dark-nav-items h1 {
+		margin: 120px auto 40px auto;
+		font-size: 4vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	#header .dark-nav-items h1 {
+		margin: 100px auto 40px auto;
+		font-size: 64px;
+	}
+
+}

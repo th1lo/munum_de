@@ -1,0 +1,283 @@
+#projects #header {
+	margin: 0;
+	height: 130vw;
+	max-height: 415px;
+	min-height: 350px;
+	background: #FFF url('../img/projects-background.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-shadow: none;
+}
+
+#header .dark-nav-items h1 {
+	margin: 100px auto 40px auto;
+	font-size: 32px;
+}
+
+.project-left {
+	padding: 0;
+	min-height: 472px;
+	position: relative;
+	margin-bottom: 70px;
+}
+
+.project-left h2, .project-right h2 {
+	color: #31363b;
+	font-family: "Work Sans";
+	line-height: 28px;
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 75px;
+	text-align: center;
+}
+
+.project-left h3, .project-right h3, .project-left div, .project-right div {
+	color: #31363b;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.project-left p, .project-right p {
+	margin: 0 auto;
+	color: #31363b;
+	font-family: "Work Sans";
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 29px;
+	padding: 20px;
+}
+
+.project-right > div > div > div > p:nth-child(4) {
+	padding-bottom: 70px;
+}
+
+.project-right {
+	background-color: whitesmoke;
+	min-height: 472px;
+	padding-bottom: 70px;
+}
+
+.project-right > div > div > div > svg {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+#more-projects {
+	background: #31363b url('../img/more-projects.png') center no-repeat; 
+	padding: 100px 0 90px 0;
+	text-align: center;
+}
+
+
+#more-projects > div > div > a {
+	display: block;
+}
+
+#more-projects > div > div > a > img.img-responsive {
+	margin: 75px auto 20px auto;
+}
+
+#more-projects > div > div:nth-child(4) > a > img {
+	z-index: 999;
+}
+
+#more-projects > div > div:nth-child(4) > a > img {
+	z-index: -1;
+}
+
+#project-intro {
+	margin: 50px 0;
+	background: #fff;
+}
+
+.col-md-7 {
+	border-right: none
+}
+
+#project-intro h2 {
+	color: #31363b;
+	font-family: "Work Sans";
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 32px;
+}
+
+#project-intro > div > div > div.col-md-5 > h2 {
+	margin-top: 60px;
+}
+
+#project-intro p {
+	color: #31363b;
+	font-family: "Work Sans";
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 29px;
+}
+
+#project-intro > div > div > div.col-md-7 > p {
+	max-width: none;
+}
+
+#detailview {
+	background-color: #31363b;
+	text-align: center;
+	padding: 40px 0 0 0;
+}
+
+#detailview h2, #more-projects h2 {
+	color: #fff;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+#detailview p, #more-projects p {
+	color: #fff;
+	font-family: "Work Sans";
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: 200;
+	margin: 0 0 50px 0;
+}
+
+#detailview .container {
+	padding: 0 5vw;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.project-left p, .project-right p {
+		text-align: left;
+	}
+
+	.project-left > div > div > div > div {
+		text-align: left;
+		float: right;
+		max-width: 30vw;
+		margin-right: 5vw;
+	}
+
+	.project-right > div > div > div > div {
+		text-align: left;
+		float: left;
+		max-width: 30vw;
+		margin-left: 5vw;
+	}
+
+	.project-img-left {
+		position: absolute;
+		left: -30vw;
+		bottom: 0;
+	}
+
+	.project-img-left2 {
+		left: 3vw;
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+	}
+
+	.project-left {
+		margin-bottom: 0;
+	}
+
+	.project-left h3, .project-right h3, .project-left div, .project-right div, .project-left h2, .project-right h2 {
+		text-align: left;
+	}
+
+	.project-left p, .project-right p {
+		padding: 0 0 30px 0;
+	}
+
+	#header .dark-nav-items h1 {
+		margin: 100px auto 40px auto;
+		font-size: 5vw;
+	}
+
+	.project-right > div > div > div > svg {
+		margin-top: 100px;
+		margin-left: 15vw;
+	}
+	.col-md-7 {
+		border-right: 1px solid #d5d5d5;
+	}
+
+	#project-intro > div > div > div.col-sm-6 {
+		padding: 0 30px;
+	}
+
+	#project-intro > div > div > div.col-sm-6 > h2 {
+		margin-top: 0;
+	}
+	
+	#project-intro > div > div > div.col-sm-6 > h2 {
+		margin-top: 0;
+	}
+
+	#project-intro p { 
+		margin-bottom: 0;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.project-img-left {
+		left: -10vw;
+	}
+
+	#header .dark-nav-items h1 {
+		margin: 120px auto 40px auto;
+		font-size: 4vw;
+	}
+
+	#project-intro > div > div > div {
+		padding-left: 50px;
+	}
+
+	#project-intro > div > div > div.col-md-7 > p {
+		max-width: 480px;
+	}
+
+	#project-intro > div > div > div.col-sm-6 {
+		padding: 0 15px;
+	}
+
+	#project-intro > div > div > div.col-md-5.col-sm-6 {
+		padding-left: 5vw;
+	}
+
+	#more-projects > div > div > a {
+		display: inline;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.project-img-left {
+		left: 0;
+	}
+
+	.project-left > div > div > div > div {
+		text-align: left;
+		float: right;
+		max-width: 461px;
+		margin-right: 0vw;
+	}
+
+	#header .dark-nav-items h1 {
+		margin: 100px auto 40px auto;
+		font-size: 64px;
+	}
+
+	#project-intro > div > div > div.col-md-7 > p {
+		max-width: 480px;
+	}
+}
